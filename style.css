@@ -1,0 +1,111 @@
+body{
+    padding: 20px;
+    background-color: #474747;
+    height: 100%;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.gerador{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.gerador > h1{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.gerador > label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#valor{
+    color: #04DB00;
+    font-weight: 800;
+}
+
+#number{
+    width: 80%;
+    height: 18px;
+    margin-bottom: 30px;
+    border-radius: 5px;  
+    color: #167115;
+    outline: none;
+}
+
+.gerador > button{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    width: 80%;
+    padding: 10px 0;
+    background-color: #04DB00;
+    border: none;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.gerador > button:hover{
+    background-color: #029200;
+}
+
+.cofre{
+    padding: 20px 0;
+}
+
+.cofre img{
+    width: 500px;
+    height: 500px;
+}
+
+.viewPassword{
+    width: 350px;
+    height: 100%;
+    display: none;
+    background-color: #2B2B2B;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 30px;
+    transition: 2s;
+}
+
+.viewPassword > h2{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.viewPassword > div{
+    padding: 10px 20px;
+}
+
+.viewPassword > div > .password{
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+    border-radius: 10px;
+    padding:  10px 30px;
+    background-color: #fff;
+}
